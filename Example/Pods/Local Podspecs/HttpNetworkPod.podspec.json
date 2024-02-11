@@ -1,0 +1,22 @@
+{
+  "name": "HttpNetworkPod",
+  "version": "0.1.0",
+  "summary": "A short description of HttpNetworkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Deepak Thakur/HttpNetworkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Deepak Thakur": "deepakt@hexaware.com"
+  },
+  "source": {
+    "git": "https://github.com/Deepak Thakur/HttpNetworkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HttpNetworkPod/Classes/**/*"
+}

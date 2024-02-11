@@ -1,0 +1,16 @@
+PODS:
+  - HttpNetworkPod (0.1.0)
+
+DEPENDENCIES:
+  - HttpNetworkPod (from `../`)
+
+EXTERNAL SOURCES:
+  HttpNetworkPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HttpNetworkPod: 9e9f34fb54654a83e8b989b18f33d42eb85dd2cf
+
+PODFILE CHECKSUM: 63e821ee407ac3290e5e3d3296540be8ea22ca44
+
+COCOAPODS: 1.14.3
