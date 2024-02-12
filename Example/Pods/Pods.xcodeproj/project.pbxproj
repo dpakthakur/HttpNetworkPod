@@ -41,7 +41,7 @@
 		0A4F0B6EA1EF8584AC81528E01C1ADA5 /* Pods-HttpNetworkPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HttpNetworkPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		0D2DB9AB10C1657E79D26003A4F13444 /* HttpNetworkPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HttpNetworkPod-prefix.pch"; sourceTree = "<group>"; };
 		11E3369BAF96D15D6509EA46F93AA1E6 /* Pods-HttpNetworkPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpNetworkPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1612DB3FDE7A1D5CFE8C42F5342EFC80 /* HttpNetworkPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HttpNetworkPod; path = HttpNetworkPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1612DB3FDE7A1D5CFE8C42F5342EFC80 /* HttpNetworkPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HttpNetworkPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A05FD0EB56486D3E86C60EEA6D3C63E /* Pods-HttpNetworkPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HttpNetworkPod_Example-Info.plist"; sourceTree = "<group>"; };
 		1A9AA4B12C5840F07F454FA156BE9DCD /* Pods-HttpNetworkPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HttpNetworkPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		20B3FFAE3053AA5BB2A6ECD3DC5AACA6 /* Pods-HttpNetworkPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HttpNetworkPod_Example"; path = Pods_HttpNetworkPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 		724AAA6E95A96D304FDCCD4DFFDD5021 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1612DB3FDE7A1D5CFE8C42F5342EFC80 /* HttpNetworkPod */,
+				1612DB3FDE7A1D5CFE8C42F5342EFC80 /* HttpNetworkPod.framework */,
 				20B3FFAE3053AA5BB2A6ECD3DC5AACA6 /* Pods-HttpNetworkPod_Example */,
 				3BA8A6AAF8C84646E2238001F761DE50 /* Pods-HttpNetworkPod_Tests */,
 			);
@@ -287,7 +287,7 @@
 			);
 			name = HttpNetworkPod;
 			productName = HttpNetworkPod;
-			productReference = 1612DB3FDE7A1D5CFE8C42F5342EFC80 /* HttpNetworkPod */;
+			productReference = 1612DB3FDE7A1D5CFE8C42F5342EFC80 /* HttpNetworkPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FFF797B5517D16322AD0CC91C00EA29B /* Pods-HttpNetworkPod_Tests */ = {
@@ -453,6 +453,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HttpNetworkPod/HttpNetworkPod-prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Target Support Files/HttpNetworkPod/HttpNetworkPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -518,6 +519,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HttpNetworkPod/HttpNetworkPod-prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Target Support Files/HttpNetworkPod/HttpNetworkPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
