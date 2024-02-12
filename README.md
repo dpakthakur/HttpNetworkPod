@@ -22,7 +22,7 @@ pod 'HttpNetworkPod'
 
 ## Author
 
-Deepak Thakur, deepakt@hexaware.com
+Deepak Thakur, deepak4218@yahoo.com
 
 ## License
 
