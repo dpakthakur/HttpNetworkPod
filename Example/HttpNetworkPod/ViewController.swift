@@ -13,10 +13,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://www.example.com")!
+        let url = URL(string: "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m")!
         HttpClient().get(url: url) { data, error in
-            print("error:: ", error?.localizedDescription ?? "")
-            print("data:: ", data?.description ?? "")
+            if let dat = data {
+                do {
+                    let jsonResponse = try JSONSerialization.jsonObject(with: dat, options: .mutableContainers)
+                    print("response:: ", jsonResponse)
+                }
+                catch let error
+                {
+                    print("error:: ", error.localizedDescription)
+                }
+            } else {
+                print("data not found")
+            }
         }
     }
 
